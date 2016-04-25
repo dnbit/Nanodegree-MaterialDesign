@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-22.0.0_aa8c0b5f7c593db226b2003d262513ba2123b493/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/libs/volley.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/2/volley_f61a59c4f0b177e4f204287e0f3144d547e18955/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_934e133444d736d33cae5d189ba540820842f16d/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_dcd3861cf186ce9e67a4fdafab118eb55da6314a/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="29d84c9630ffd16b7660824ac36d720484f75cc9">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_87b40356839f9063703ed8c6d28e5c25d9fcc2c0/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.0.0_645a1466e34a114c7b28f9b151ded0c84130f130/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.0.0_a2ef9adb256beae87e2029a608ad41458312dde8/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.0.0_088a8992214dbe4418a06be0ee3ca800a7eeee70/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_f3283e4ad7b6e982bb257adc467521b0b9cd0261/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.1.2_dfa6913a2d80b4735d431be10aa5ca43185c2635/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-22.0.0_bcb775d459dc722d032dc47aa8fd025199293277/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="056d568d0dae2180db4984741322739fa04f3869">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_219f38471a35b2121162bb3d2c5b29f0a5a7eb6d/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-22.0.0_589c69c547bd77caa41e3bc02d765df1d677a949/classes.dex" />
+    </item>
+    <item
+        jar="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/home/jose/Development/android/AndroidStudioProjects/Nanodegree/Assignments/P5 - Make your app material/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.0.0_bd234472c42ed4eb7c377013713e087156d50436/classes.dex" />
+    </item>
+
+</items>
