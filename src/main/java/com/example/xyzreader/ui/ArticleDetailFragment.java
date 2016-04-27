@@ -180,6 +180,7 @@ public class ArticleDetailFragment extends Fragment implements
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
         bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
+        bodyView.setMovementMethod(LinkMovementMethod.getInstance());
 
         if (mCursor != null) {
             mRootView.setAlpha(0);
