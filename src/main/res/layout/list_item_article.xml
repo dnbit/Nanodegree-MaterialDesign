@@ -26,7 +26,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:background="@color/photo_placeholder"/>
+            android:background="@color/photo_placeholder"
+            android:transitionName="listToDetailImageTransition"/>
 
         <TextView
             android:id="@+id/article_title"

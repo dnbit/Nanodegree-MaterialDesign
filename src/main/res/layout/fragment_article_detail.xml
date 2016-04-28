@@ -22,7 +22,8 @@
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:transitionName="@string/listToDetailImageTransition"/>
 
                 <View
                     android:layout_width="match_parent"

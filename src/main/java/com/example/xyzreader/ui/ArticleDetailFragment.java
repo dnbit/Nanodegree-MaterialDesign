@@ -54,6 +54,12 @@ public class ArticleDetailFragment extends Fragment implements
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
 
+
+
+
+    private boolean flagOriginal = false;
+
+
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
@@ -61,9 +67,11 @@ public class ArticleDetailFragment extends Fragment implements
     public ArticleDetailFragment() {
     }
 
-    public static ArticleDetailFragment newInstance(long itemId) {
+    public static ArticleDetailFragment newInstance(long itemId, boolean originalPage) {
         Bundle arguments = new Bundle();
         arguments.putLong(ARG_ITEM_ID, itemId);
+        //TODO hardcoded string
+        arguments.putBoolean("flagOriginal", originalPage);
         ArticleDetailFragment fragment = new ArticleDetailFragment();
         fragment.setArguments(arguments);
         return fragment;
@@ -75,6 +83,10 @@ public class ArticleDetailFragment extends Fragment implements
 
         if (getArguments().containsKey(ARG_ITEM_ID)) {
             mItemId = getArguments().getLong(ARG_ITEM_ID);
+        }
+
+        if (getArguments().containsKey("flagOriginal")) {
+           flagOriginal = getArguments().getBoolean("flagOriginal");
         }
 
         mIsCard = getResources().getBoolean(R.bool.detail_is_card);
@@ -138,7 +150,9 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
+        Log.d("***ArticleDetailFrgment", "bindViews from onCreateView");
         bindViews();
+
         updateStatusBar();
         return mRootView;
     }
@@ -197,8 +211,18 @@ public class ArticleDetailFragment extends Fragment implements
                             + mCursor.getString(ArticleLoader.Query.AUTHOR)
                             + "</font>"));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
+
+            // TODO testing only
+
+            Log.d("***ArticleDetailFrgment", "1 - Image "+ mCursor.getString(ArticleLoader.Query.PHOTO_URL));
+
+
+            // end testing
+
             ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
+                        String url = mCursor.getString(ArticleLoader.Query.PHOTO_URL);
+
                         @Override
                         public void onResponse(ImageLoader.ImageContainer imageContainer, boolean b) {
                             Bitmap bitmap = imageContainer.getBitmap();
@@ -206,6 +230,12 @@ public class ArticleDetailFragment extends Fragment implements
                                 Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
+//                                getActivityCast().scheduleStartPostponedTransition(mPhotoView);
+                                if(flagOriginal) {
+                                    Log.d("2 - ***ArtclDtilFrgment", "using " + url);
+                                    getActivityCast().scheduleStartPostponedTransition(mPhotoView);
+                                    flagOriginal = false;
+                                }
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
                                 updateStatusBar();
@@ -245,13 +275,16 @@ public class ArticleDetailFragment extends Fragment implements
             mCursor.close();
             mCursor = null;
         }
+//        getActivityCast().scheduleStartPostponedTransition(mPhotoView);
 
+        Log.d("***ArticleDetailFrgment", "bindViews from onLoadFinished");
         bindViews();
     }
 
     @Override
     public void onLoaderReset(Loader<Cursor> cursorLoader) {
         mCursor = null;
+        Log.d("***ArticleDetailFrgment", "bindViews from onLoaderReset");
         bindViews();
     }
 
