@@ -5,7 +5,6 @@ import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
 import com.example.xyzreader.data.UpdaterService;
 
-import android.app.Activity;
 import android.app.ActivityOptions;
 import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
@@ -133,10 +132,9 @@ public class ArticleListActivity extends ActionBarActivity implements
             View view = getLayoutInflater().inflate(R.layout.list_item_article, parent, false);
             final ViewHolder vh = new ViewHolder(view);
             view.setOnClickListener(new View.OnClickListener() {
-
-                int position = mCursor.getPosition();
                 @Override
                 public void onClick(View view) {
+                    int position = vh.getAdapterPosition();
                     Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(
                             (ArticleListActivity) mContext,
                             vh.thumbnailView,
